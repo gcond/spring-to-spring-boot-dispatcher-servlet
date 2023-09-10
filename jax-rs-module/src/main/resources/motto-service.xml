@@ -5,8 +5,4 @@
 
     <bean id="mottoService" class="com.dragonflydev.service.MottoService"/>
 
-    <bean id="mottoResource" class="com.dragonflydev.resource.MottoResourceImpl">
-        <property name="mottoService" ref="mottoService"/>
-    </bean>
-
 </beans>

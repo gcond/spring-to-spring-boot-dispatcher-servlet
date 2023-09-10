@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
  *
  */
 @SpringBootApplication
-@ImportResource("classpath:motto.xml")
+@ImportResource("classpath:bean-ref-context.xml")
 public class JaxRsApp {
     public static void main( String[] args ) {
         SpringApplication.run(JaxRsApp.class, args);

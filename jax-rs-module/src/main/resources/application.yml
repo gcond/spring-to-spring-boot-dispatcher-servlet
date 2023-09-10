@@ -1,0 +1,9 @@
+server:
+  context-path: /barca
+  port: 9080
+
+cxf:
+  path: /
+  jaxrs:
+    classes-scan: true
+    classes-scan-packages: com.dragonflydev.resource
